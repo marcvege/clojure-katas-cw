@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9d319c-3809-4ae2-81ce-f1b30135c4b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/multiples/multiples.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/multiples/multiples_test.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/multiples/multiples_clever.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/multiples/multiples_clever_test.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/noboringzeros/core.clj" afterPath="$PROJECT_DIR$/src/noboringzeros/core.clj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,6 +18,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="multiples_test.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/multiples/multiples_test.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="multiples.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/multiples/multiples.clj">
           <provider selected="true" editor-type-id="text-editor">
@@ -30,24 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="133">
-                <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="multiples_clever.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/multiples/multiples_clever.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multiples_test.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/multiples/multiples_test.clj">
+      <file leaf-file-name="multiples_clever_test.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/multiples/multiples_clever_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="38">
+              <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -58,8 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Clojure Test Namespace" />
         <option value="Clojure Namespace" />
+        <option value="Clojure Test Namespace" />
       </list>
     </option>
   </component>
@@ -82,6 +87,9 @@
         <option value="$PROJECT_DIR$/src/multiples/multiples.clj" />
         <option value="$PROJECT_DIR$/src/multiples/multiples_best.clj" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/multiples/multiples_clever.clj" />
+        <option value="$PROJECT_DIR$/test/multiples/multiples_clever.clj" />
+        <option value="$PROJECT_DIR$/test/multiples/multiples_clever_test.clj" />
       </list>
     </option>
   </component>
@@ -175,7 +183,7 @@
     <property name="cursive.last.file.extension./Users/marcvillagrasa/Projects/clojure/katas-clojure-cw/src" value="clj" />
     <property name="cursive.last.file.extension./Users/marcvillagrasa/Projects/clojure/katas-clojure-cw/test" value="clj" />
   </component>
-  <component name="ReplState" timestamp="1501921485264">{:repl-history {:ide [], :local [{:command &quot;(isMulti3? 5)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(defn isMulti3? [number]\n  (== 0 (mod number 3))\n  )&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;(isMulti3? 4)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(isMulti3? 9)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (cond\n    (== number 1) 0\n    :else (cond\n            (isMulti3? number) (+ number (solution (- number 1)))\n            (isMulti5? number) (+ number (solution (- number 1)))\n            :else (solution (- number 1))\n            )\n    )\n  )&quot;, :offset 265, :ns &quot;user&quot;} {:command &quot;(defn isMulti5? [number]\n  (== 0 (mod number 5))\n  )&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;\n(defn solution [number]\n  (cond\n    (== number 1) 0\n    :else (cond\n            (isMulti3? number) (+ number (solution (- number 1)))\n            (isMulti5? number) (+ number (solution (- number 1)))\n            :else (solution (- number 1))\n            )\n    )\n  )&quot;, :offset 266, :ns &quot;user&quot;} {:command &quot;(list? ())&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(cond (true) ())&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(cond (= 0 0) ())&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(list () 3)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(list nil 3)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(list 4\n      3)&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(+(list 4 3))&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(apply + (list 4 3))\n)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(apply + (list 4 3))\n&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (list number (solution (- number 1)))\n            (isMulti5? number) (list number (solution (- number 1)))\n            :else (solution (- number 1))\n            )\n    )\n  )&quot;, :offset 280, :ns &quot;user&quot;} {:command &quot;(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (list number (multiples35Under (- number 1)))\n            (isMulti5? number) (list number (multiples35Under (- number 1)))\n            :else (multiples35Under (- number 1))\n            )\n    )\n  )&quot;, :offset 304, :ns &quot;user&quot;} {:command &quot;( 3 (4 5))&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(concat () (1 2))&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(concat '() '(1 2))&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(concat 3 '(1 2))&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(concat '3 '(1 2))&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (concat (number) (multiples35Under (- number 1)))\n            (isMulti5? number) (concat (number) (multiples35Under (- number 1)))\n            :else (multiples35Under (- number 1))\n            )\n    )\n  )&quot;, :offset 312, :ns &quot;user&quot;} {:command &quot;(list 3)\n&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (concat (list number) (multiples35Under (- number 1)))\n            (isMulti5? number) (concat (list number) (multiples35Under (- number 1)))\n            :else (multiples35Under (- number 1))\n            )\n    )\n  )&quot;, :offset 322, :ns &quot;user&quot;} {:command &quot;(multiples35Under 10)&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (multiples35Uner (- number 1))\n  )\n\n(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (concat (list number) (multiples35Under (- number 1)))\n            (isMulti5? number) (concat (list number) (multiples35Under (- number 1)))\n            :else (multiples35Under (- number 1))\n            )\n    )\n  )\n\n(defn isMulti3? [number]\n  (== 0 (mod number 3))\n  )\n\n(defn isMulti5? [number]\n  (== 0 (mod number 5))\n  )&quot;, :offset 492, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (multiples35Under (- number 1))\n  )&quot;, :offset 61, :ns &quot;user&quot;} {:command &quot;(apply + (solution 10))&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (appply + (multiples35Under (- number 1)))\n  )&quot;, :offset 72, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (apply + (multiples35Under (- number 1)))\n  )&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(solution 10)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(solution 0)&quot;, :offset 12, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1501928291566">{:repl-history {:ide [], :local [{:command &quot;(isMulti3? 5)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(defn isMulti3? [number]\n  (== 0 (mod number 3))\n  )&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;(isMulti3? 4)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(isMulti3? 9)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (cond\n    (== number 1) 0\n    :else (cond\n            (isMulti3? number) (+ number (solution (- number 1)))\n            (isMulti5? number) (+ number (solution (- number 1)))\n            :else (solution (- number 1))\n            )\n    )\n  )&quot;, :offset 265, :ns &quot;user&quot;} {:command &quot;(defn isMulti5? [number]\n  (== 0 (mod number 5))\n  )&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;\n(defn solution [number]\n  (cond\n    (== number 1) 0\n    :else (cond\n            (isMulti3? number) (+ number (solution (- number 1)))\n            (isMulti5? number) (+ number (solution (- number 1)))\n            :else (solution (- number 1))\n            )\n    )\n  )&quot;, :offset 266, :ns &quot;user&quot;} {:command &quot;(list? ())&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(cond (true) ())&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(cond (= 0 0) ())&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(list () 3)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(list nil 3)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(list 4\n      3)&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(+(list 4 3))&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(apply + (list 4 3))\n)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(apply + (list 4 3))\n&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (list number (solution (- number 1)))\n            (isMulti5? number) (list number (solution (- number 1)))\n            :else (solution (- number 1))\n            )\n    )\n  )&quot;, :offset 280, :ns &quot;user&quot;} {:command &quot;(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (list number (multiples35Under (- number 1)))\n            (isMulti5? number) (list number (multiples35Under (- number 1)))\n            :else (multiples35Under (- number 1))\n            )\n    )\n  )&quot;, :offset 304, :ns &quot;user&quot;} {:command &quot;( 3 (4 5))&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(concat () (1 2))&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(concat '() '(1 2))&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(concat 3 '(1 2))&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(concat '3 '(1 2))&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (concat (number) (multiples35Under (- number 1)))\n            (isMulti5? number) (concat (number) (multiples35Under (- number 1)))\n            :else (multiples35Under (- number 1))\n            )\n    )\n  )&quot;, :offset 312, :ns &quot;user&quot;} {:command &quot;(list 3)\n&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (concat (list number) (multiples35Under (- number 1)))\n            (isMulti5? number) (concat (list number) (multiples35Under (- number 1)))\n            :else (multiples35Under (- number 1))\n            )\n    )\n  )&quot;, :offset 322, :ns &quot;user&quot;} {:command &quot;(multiples35Under 10)&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (multiples35Uner (- number 1))\n  )\n\n(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (concat (list number) (multiples35Under (- number 1)))\n            (isMulti5? number) (concat (list number) (multiples35Under (- number 1)))\n            :else (multiples35Under (- number 1))\n            )\n    )\n  )\n\n(defn isMulti3? [number]\n  (== 0 (mod number 3))\n  )\n\n(defn isMulti5? [number]\n  (== 0 (mod number 5))\n  )&quot;, :offset 492, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (multiples35Under (- number 1))\n  )&quot;, :offset 61, :ns &quot;user&quot;} {:command &quot;(apply + (solution 10))&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (appply + (multiples35Under (- number 1)))\n  )&quot;, :offset 72, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (apply + (multiples35Under (- number 1)))\n  )&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(solution 10)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(solution 0)&quot;, :offset 12, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -307,12 +315,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501915540863</updated>
-      <workItem from="1501915542417" duration="4197000" />
+      <workItem from="1501915542417" duration="6118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4197000" />
+    <option name="totallyTimeSpent" value="6118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -325,14 +333,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -419,11 +427,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/multiples/multiples_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -435,14 +446,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="133">
-            <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/test/multiples/multiples_clever.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/multiples/multiples_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multiples/multiples_clever.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/multiples/multiples_clever_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
