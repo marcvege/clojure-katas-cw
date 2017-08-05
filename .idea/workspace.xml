@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9d319c-3809-4ae2-81ce-f1b30135c4b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_nrepl_0_2_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/intro.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/katas-clojure-cw.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/noboringzeros/core.clj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/noboringzeros/core_test.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/multiples/multiples.clj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/multiples/multiples_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/noboringzeros/core.clj" afterPath="$PROJECT_DIR$/src/noboringzeros/core.clj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,25 +20,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="katas-clojure-cw.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/katas-clojure-cw.iml">
+      <file leaf-file-name="multiples.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/multiples/multiples.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="65" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CHANGELOG.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -60,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="114">
-                <caret line="6" column="65" lean-forward="false" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -69,7 +43,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="multiples_test.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/multiples/multiples_test.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Test Namespace" />
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,6 +74,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/test/multiples.clj" />
+        <option value="$PROJECT_DIR$/src/noboringzeros/core.clj" />
+        <option value="$PROJECT_DIR$/test/multiples/multiples.clj" />
+        <option value="$PROJECT_DIR$/test/multiples/multiples_testa.clj" />
+        <option value="$PROJECT_DIR$/test/multiples/multiples_test.clj" />
+        <option value="$PROJECT_DIR$/src/multiples/multiples.clj" />
+        <option value="$PROJECT_DIR$/src/multiples/multiples_best.clj" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -91,6 +90,10 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -124,6 +127,12 @@
               <item name="katas-clojure-cw" type="b2602c69:ProjectViewProjectNode" />
               <item name="katas-clojure-cw" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="multiples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="katas-clojure-cw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="katas-clojure-cw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="noboringzeros" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -135,7 +144,17 @@
               <item name="katas-clojure-cw" type="b2602c69:ProjectViewProjectNode" />
               <item name="katas-clojure-cw" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="multiples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="katas-clojure-cw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="katas-clojure-cw" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="noboringzeros" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="katas-clojure-cw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -148,12 +167,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="Keybindings" />
     <property name="last_opened_file_path" value="/Volumes/Transcend 1/workspace" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="cursive.last.file.extension./Users/marcvillagrasa/Projects/clojure/katas-clojure-cw/src" value="clj" />
+    <property name="cursive.last.file.extension./Users/marcvillagrasa/Projects/clojure/katas-clojure-cw/test" value="clj" />
   </component>
+  <component name="ReplState" timestamp="1501921485264">{:repl-history {:ide [], :local [{:command &quot;(isMulti3? 5)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(defn isMulti3? [number]\n  (== 0 (mod number 3))\n  )&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;(isMulti3? 4)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(isMulti3? 9)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (cond\n    (== number 1) 0\n    :else (cond\n            (isMulti3? number) (+ number (solution (- number 1)))\n            (isMulti5? number) (+ number (solution (- number 1)))\n            :else (solution (- number 1))\n            )\n    )\n  )&quot;, :offset 265, :ns &quot;user&quot;} {:command &quot;(defn isMulti5? [number]\n  (== 0 (mod number 5))\n  )&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;\n(defn solution [number]\n  (cond\n    (== number 1) 0\n    :else (cond\n            (isMulti3? number) (+ number (solution (- number 1)))\n            (isMulti5? number) (+ number (solution (- number 1)))\n            :else (solution (- number 1))\n            )\n    )\n  )&quot;, :offset 266, :ns &quot;user&quot;} {:command &quot;(list? ())&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(cond (true) ())&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(cond (= 0 0) ())&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(list () 3)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(list nil 3)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(list 4\n      3)&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(+(list 4 3))&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(apply + (list 4 3))\n)&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(apply + (list 4 3))\n&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (list number (solution (- number 1)))\n            (isMulti5? number) (list number (solution (- number 1)))\n            :else (solution (- number 1))\n            )\n    )\n  )&quot;, :offset 280, :ns &quot;user&quot;} {:command &quot;(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (list number (multiples35Under (- number 1)))\n            (isMulti5? number) (list number (multiples35Under (- number 1)))\n            :else (multiples35Under (- number 1))\n            )\n    )\n  )&quot;, :offset 304, :ns &quot;user&quot;} {:command &quot;( 3 (4 5))&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(concat () (1 2))&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(concat '() '(1 2))&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(concat 3 '(1 2))&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(concat '3 '(1 2))&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (concat (number) (multiples35Under (- number 1)))\n            (isMulti5? number) (concat (number) (multiples35Under (- number 1)))\n            :else (multiples35Under (- number 1))\n            )\n    )\n  )&quot;, :offset 312, :ns &quot;user&quot;} {:command &quot;(list 3)\n&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (concat (list number) (multiples35Under (- number 1)))\n            (isMulti5? number) (concat (list number) (multiples35Under (- number 1)))\n            :else (multiples35Under (- number 1))\n            )\n    )\n  )&quot;, :offset 322, :ns &quot;user&quot;} {:command &quot;(multiples35Under 10)&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (multiples35Uner (- number 1))\n  )\n\n(defn multiples35Under [number]\n  (cond\n    (== number 1) ()\n    :else (cond\n            (isMulti3? number) (concat (list number) (multiples35Under (- number 1)))\n            (isMulti5? number) (concat (list number) (multiples35Under (- number 1)))\n            :else (multiples35Under (- number 1))\n            )\n    )\n  )\n\n(defn isMulti3? [number]\n  (== 0 (mod number 3))\n  )\n\n(defn isMulti5? [number]\n  (== 0 (mod number 5))\n  )&quot;, :offset 492, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (multiples35Under (- number 1))\n  )&quot;, :offset 61, :ns &quot;user&quot;} {:command &quot;(apply + (solution 10))&quot;, :offset 23, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (appply + (multiples35Under (- number 1)))\n  )&quot;, :offset 72, :ns &quot;user&quot;} {:command &quot;(defn solution [number]\n  (apply + (multiples35Under (- number 1)))\n  )&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(solution 10)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(solution 0)&quot;, :offset 12, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -166,7 +188,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Clojure REPL.Unnamed">
+    <configuration name="Unnamed" type="ClojureREPL" factoryName="Local">
+      <setting name="replType" value="1" />
+      <module name="katas-clojure-cw-1" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -247,6 +277,25 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="multiples" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="katas-clojure-cw-1" />
+      <setting name="path" value="$PROJECT_DIR$/test/multiples/multiples.clj" />
+      <setting name="namespace" value="" />
+      <setting name="useLein" value="false" />
+      <setting name="profiles" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/test/multiples" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Clojure REPL.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure Application.multiples" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Clojure Application.multiples" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -258,15 +307,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501915540863</updated>
-      <workItem from="1501915542417" duration="296000" />
+      <workItem from="1501915542417" duration="4197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296000" />
+    <option name="totallyTimeSpent" value="4197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -276,9 +325,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -327,6 +376,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/multiples.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -338,11 +395,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/noboringzeros/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/noboringzeros/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multiples/multiples_best.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/multiples/multiples_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multiples/multiples.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="65" lean-forward="false" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
             <folding />
           </first_editor>
           <second_editor />

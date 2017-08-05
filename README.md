@@ -2,9 +2,10 @@
 
 Simple Clojure Katas from Code Wars.
 
-## Usage
+## Katas
 
  * https://www.codewars.com/kata/no-zeros-for-heros/train/clojure
+ * https://www.codewars.com/kata/multiples-of-3-and-5/train/clojure
 
 ## License
 

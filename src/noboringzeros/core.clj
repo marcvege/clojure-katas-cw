@@ -1,3 +1,4 @@
+; https://www.codewars.com/kata/no-zeros-for-heros/train/clojure
 (ns noboringzeros.core)
 
 (defn no-boring-zeros
